@@ -5,7 +5,11 @@ WORKDIR /app
 
 COPY . /app
 
-RUN python3 -m pip install --no-cache-dir --upgrade huggingface_hub && \
+RUN python3 -m pip install --no-cache-dir --upgrade \
+      huggingface_hub \
+      av \
+      soundfile \
+      librosa && \
     chmod +x /app/*.sh /app/*.py && \
     mkdir -p /models
 
