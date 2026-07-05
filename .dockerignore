@@ -1,0 +1,11 @@
+.git
+.github
+assets
+logs
+*.pid
+*.log
+__pycache__
+.DS_Store
+Qwen3-Omni-30B-A3B-Instruct-NVFP4
+models
+ai-models

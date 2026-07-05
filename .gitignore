@@ -1,0 +1,9 @@
+assets/
+logs/
+*.pid
+*.log
+__pycache__/
+.DS_Store
+models/
+ai-models/
+Qwen3-Omni-30B-A3B-Instruct-NVFP4/
